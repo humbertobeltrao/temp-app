@@ -7,6 +7,4 @@ class Utils {
   static double toKelvin(double v) {
     return v + 273;
   }
-
-  static double toScale() {}
 }
