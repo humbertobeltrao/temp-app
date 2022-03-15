@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _toFahrenheit(double v) {
     setState(() {
-      _resultado = v * 1.8 + 32;
+      _resultado = v * 1.8 + 32.0;
     });
   }
 
