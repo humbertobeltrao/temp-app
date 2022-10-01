@@ -7,8 +7,5 @@ void main() {
     expect(v, 32.0);
   });
 
-  test('converter de celsius para kelvin', () {
-    double v = Utils.toKelvin(0);
-    expect(v, 273.0);
-  });
+  
 }
