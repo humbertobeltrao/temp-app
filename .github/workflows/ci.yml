@@ -3,7 +3,7 @@ on: push
 
 jobs:
   checks:
-    name: Analyzer and unit tests
+    name: Get packages and run tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -12,7 +12,6 @@ jobs:
           channel: 'stable'
       - name: Getting packages
         run: flutter pub get
-      - name: tests
+      - name: Running tests
         run: flutter test
-      - name: Integration Tests
-        run: flutter test 
+ 
