@@ -14,3 +14,5 @@ jobs:
         run: flutter pub get
       - name: tests
         run: flutter test
+      - name: Integration Tests
+        run: flutter test .\test\widget_test_temp.dart
