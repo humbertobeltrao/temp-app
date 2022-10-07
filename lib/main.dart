@@ -72,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 inputFormatters: [FilteringTextInputFormatter.digitsOnly],
                 controller: _controller,
                 style: TextStyle(fontSize: 20.0),
+                key: Key('valueTextField'),
               ),
             ),
             TempButton(
@@ -95,6 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 style: Theme.of(context).textTheme.headline4,
               ),
             ),
+            
+            ElevatedButton(onPressed: onPressed, child: child, ke)
           ],
         ),
       ),

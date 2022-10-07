@@ -36,6 +36,7 @@ dev_dependencies:
     sdk: flutter
   flutter_driver:
     sdk: flutter
+  patrol: ^0.6.11
   
 
 # For information on the generic Dart part of this file, see the
