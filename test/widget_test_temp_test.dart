@@ -27,4 +27,11 @@ void main() {
     await $(#btnCF).tap();
     expect($('32.0'), findsOneWidget);
   });
+
+  patrolTest('converter celsius para fahrenheit', ($) async {
+    await $.pumpWidgetAndSettle(MyApp());
+    await $(#valueTextField).enterText('100');
+    await $(#btnCF).tap();
+    expect($('212.0'), findsOneWidget);
+  });
 }
